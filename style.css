@@ -3,6 +3,131 @@
 }
 body {
     font-family: 'Open Sans', sans-serif;
-	color: #5A7184;
 	font-size: 16px;
+    font-style: normal;
+}
+.hero {
+    width: 1280px;
+    background: #E8EAE9 url(Image.jpg) center no-repeat;
+    background-size: cover;
+	border-radius: 8px;
+	padding: 60px 0;
+	color: #5A7184;
+    margin: 136px auto 50px;
+
+}
+.container {
+    height: 700px;
+    margin-left: 80px;
+}
+
+h1 {
+    width: 474px;
+    height: 204px;
+    color: #183B56;
+    margin-left: 70px;
+    margin-top: 28px;
+    font-family: 'HK Grotesk' ;
+    font-size: 56px;
+}
+
+p {
+    height: 108px;
+    width: 652px;
+    color: #5A7184;
+    margin-left: 70px;
+    margin-top: 28px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+}
+.tag {
+    margin-top: 62px;
+    padding: 6px 16px;
+    height: 20px;
+    background: #c1dacf;
+    border-radius: 30px;
+    color: #36B37E;
+    font-style: normal;
+    font-weight: 600;
+    }
+
+
+.row {
+    --gutter: 30px;
+    margin-left: calc(var(--gutter)/-2);
+    margin-right: calc(var(--gutter)/-2);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn {
+    color: #E8EAE9;
+    font-weight: 700;
+    font-size: 18px;
+    height: 56px;
+    width: 236px;
+    border: none;
+    border-radius: 8px;
+    margin-left: 70px;
+    background-color: #183B56;
+}
+
+.advantage {
+display: flex;
+margin-top: 48px;
+}
+
+.advantage-item {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    font-style: 'HK Grotesk';
+    font-weight: 600;
+    margin-left: 70px;
+}
+.advantage-item-icon {
+    margin-right: 15px;
+    width: 36px;
+    height: 36px;
+    padding: 7px;
+    border: 1px solid #1565D8;
+    border-radius: 12px;
+
+}
+.col-1 {
+    width: calc(100%/12);
+}
+.col-2 {
+    width: calc(100%/6);
+}
+.col-3 {
+    width: calc(100%/4);
+}
+.col-4 {
+    width: calc(100%/3);
+}
+.col-5 {
+    width: calc(100%/2.4);
+}
+.col-6 {
+    width: calc(100%/2);
+}
+.col-7 {
+    width: calc(100%/1.714);
+}
+.col-8 {
+    width: calc(100%/1.5);
+}
+.col-9 {
+    width: calc(100%/1.333);
+}
+.col-10 {
+    width: calc(100%/1.2);
+}
+.col-11 {
+    width: calc(100%/1.091);
+}
+.col-12 {
+    width: calc(100%/1);
 }
