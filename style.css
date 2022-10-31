@@ -13,33 +13,14 @@ body {
 	border-radius: 8px;
 	padding: 60px 0;
 	color: #5A7184;
-    margin: 136px auto 50px;
+    margin: 136px;
 
 }
 .container {
     height: 700px;
-    margin-left: 80px;
-}
-
-h1 {
-    width: 474px;
-    height: 204px;
-    color: #183B56;
     margin-left: 70px;
     margin-top: 28px;
-    font-family: 'HK Grotesk' ;
-    font-size: 56px;
-}
 
-p {
-    height: 108px;
-    width: 652px;
-    color: #5A7184;
-    margin-left: 70px;
-    margin-top: 28px;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 36px;
 }
 .tag {
     margin-top: 62px;
@@ -51,6 +32,27 @@ p {
     font-style: normal;
     font-weight: 600;
     }
+
+
+h1 {
+    width: 474px;
+    height: 204px;
+    color: #183B56;
+    margin-left: 70px;
+    font-family: 'HK Grotesk' ;
+    font-size: 56px;
+}
+
+
+p {
+    height: 108px;
+    width: 652px;
+    color: #5A7184;
+    margin-left: 70px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+}
 
 
 .row {
@@ -74,8 +76,8 @@ p {
 }
 
 .advantage {
-display: flex;
-margin-top: 48px;
+    display: flex;
+    margin-top: 48px;
 }
 
 .advantage-item {
