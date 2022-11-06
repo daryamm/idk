@@ -1,0 +1,43 @@
+:root {
+    --blue: #1565D8;
+    --dark: #183B56;
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+    font-style: normal;
+}
+
+.btn {
+    display: inline-flex;
+	align-items: center;
+    color: #E8EAE9;
+    font-weight: 700;
+    font-size: 18px;
+    height: 48px;
+    border-radius: 8px;
+    /* margin-left: 70px; */
+    cursor: pointer;
+	text-decoration: none;
+	padding: 0 24px;
+	border: 2px solid transparent;
+}
+
+.btn_outline {
+    background: transparent;
+    color: var(--blue);
+    text-align: center;
+    border-color: var(--blue);
+    }
+
+.btn_large {
+    height: 56px;
+}
+.btn_black {
+    background: var(--dark);
+}
+
