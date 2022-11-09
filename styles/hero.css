@@ -11,32 +11,36 @@
 
 .hero {
     width: 1280px;
-    background: #E8EAE9 url(Image.jpg) center no-repeat;
+    background: #E8EAE9 url(../images/Image.jpg) center no-repeat;
     background-size: cover;
 	border-radius: 8px;
 	padding: 60px 0;
-	color: #5A7184;
-    margin: auto 80px ;
+	color: (var(--grey));
+    margin: 0 auto 50px ;
 
 }
 
-h1 {
+.hero h1 {
     width: 474px;
     height: 204px;
-    color: #183B56;
+    color: var(--dark);
     /* margin-left: 70px; */
-    font-family: 'HK Grotesk' ;
+    font-family: var(--secondary-font) ;
     font-size: 56px;
+    margin-top: 0;
+    margin-bottom: 28px;
 }
 
 
-p {
-    color: #5A7184;
+.hero p {
+    color: var(--grey);
     /* margin-left: 70px; */
     font-weight: 400;
     font-size: 20px;
     line-height: 36px;
+    margin-bottom: 52px;
 }
+
 
 
 
@@ -49,7 +53,7 @@ p {
     display: flex;
     align-items: center;
     margin-right: 30px;
-    font-style: 'HK Grotesk';
+    font-style: var(--secondary-font);
     font-weight: 600;
     /* margin-left: 70px; */
 }
@@ -57,7 +61,7 @@ p {
     width: 36px;
     height: 36px;
     padding: 7px;
-    border: 1px solid #1565D8;
+    border: 1px solid var(--blue);
     border-radius: 12px;
     margin-right: 8px;
 }

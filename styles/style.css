@@ -1,9 +1,9 @@
-@import url(general.css);
-@import url(hero.css);
-@import url(header.css);
-@import url(grid.css);
-@import url(page.css);
-@import url(footer.css);
-@import url(cta.css);
+@import "general.css";
+@import "grid.css";
+@import "hero.css";
+@import "page.css";
+@import "cta.css";
+@import "footer.css";
+
 
 

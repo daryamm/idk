@@ -11,6 +11,13 @@
     display: flex;
     flex-wrap: wrap;
 }
+.row > * {
+    width: 100%;
+    max-width: 100%;
+    padding-left: calc(var(--gutter)/2);
+    padding-right: calc(var(--gutter)/2);
+    flex-shrink: 0;
+}
 .col-1 {
     width: calc(100%/12);
 }
@@ -36,7 +43,7 @@
     width: calc(100%/1.5);
 }
 .col-9 {
-    width: calc(100%/1.333);
+    width: calc(100%/1.3334);
 }
 .col-10 {
     width: calc(100%/1.2);

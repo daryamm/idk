@@ -1,13 +1,9 @@
 .header-main {
     --margin: 40px;
     --user-padding: 10px;
+
     height: 100px;
-    /* margin: auto 150px; */
-    /* background: grey; */
     margin-bottom: 36px;
-    /* display: flex;
-    align-items: center; */
-    width: 100%;
 }
 
 
@@ -16,6 +12,7 @@
     justify-content: flex-end;
    
 }
+
 .header-nav {
     margin: auto 0;
 
@@ -24,21 +21,22 @@
     margin-left: calc (var(--margin)- var(--user-padding));
 }
 .header-nav__link {
-    font-family: 'Open Sans';
-    font-style: normal;
+    font-family: var(--font);
     font-weight: 600;
     font-size: 16px;
-    color: #183B56;
+    color: var(--dark);
     text-decoration: none;
 	padding: var(--user-padding);
     }
+
+
+
+.header-nav__link:not(:last-child) {
+	margin-right: calc(var(--gutter) - var(--user-padding) * 2);
+}
 
 .logo-main {
     display: flex;
     align-items: center;
     height: 100%;
-}
-
-.header-nav__link:not(:last-child) {
-	margin-right: calc(var(--gutter) - var(--user-padding) * 2);
 }

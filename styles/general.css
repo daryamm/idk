@@ -1,13 +1,31 @@
 :root {
     --blue: #1565D8;
     --dark: #183B56;
+    --grey: #5A7184;
+    --font: 'Open Sans', sans-serif;
+    --secondary-font: 'HK Grotesk', sans-serif;
+
 }
 
 * {
     box-sizing: border-box;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 { 
+    font-weight: bold;
+    margin: 0;
+}
+p {
+    margin: 0;
+}
+
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: var(--font);
 	font-size: 16px;
     font-style: normal;
 }

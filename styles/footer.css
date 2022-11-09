@@ -3,36 +3,47 @@
     background: var(--blue); */
     background: #eee;
     padding: 130px 0;
+    margin: 0;
 
 }
-/* .footer-icon {
+ .footer-icon {
     margin-top: 31px;
     margin-right: 6px;
 }
 
 .footer-logo {
-    display: flex;
-    align-items: center;
-    height: 100%;
-} */
+    margin-bottom: 28px;
+} 
 .footer-nav {
-    /* display: flex; */
+    margin-top: 31px;
 
 }
 .footer-nav__link {
-    margin-bottom: 24px;
     text-decoration: none;
-    font-family: 'Open Sans';
+    font-family: var(--font);
     font-weight: 400;
     font-size: 16px;
-    height: 22px;
     width: 100%;
+    color: var(--dark);
+    margin-bottom: 24px;
 }
-.footer-item {
-    width: 165px;
+
+/* .footer-item {
     margin-right: 30px;
 
+} */
+h3 { 
+    margin: 0;
 }
-.h3 {
+
+.footer-main h3 {
+    color: var(--grey);
+    font-size: 16px;
+    line-height: 28px;
+}
+.footer-item h3 {
     color: var(--dark);
+    font-weight: 700;
+    margin-bottom: 31px;
+    font-size: 18px;
 }

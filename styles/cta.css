@@ -10,14 +10,14 @@
 }
 
 .cta-form__content h2 {
-    font-family: 'HK Grotesk';
+    font-family: var(--secondary-font);
 	font-size: 48px;
 	line-height: 60px;
 	letter-spacing: 0.2px;
 	color: #FFFFFF; 
 }
 .cta-form__content p {
-    font-family: 'Open Sans';
+    font-family: var(--font);
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -49,7 +49,7 @@
 	border: none;
 	background: transparent;
 	padding: 0 12px;
-	color: var(--black);
+	color: var(--dark);
 }
 
 .cta-form__input-item::placeholder {
