@@ -8,7 +8,13 @@
 }
  .footer-icon {
     margin-top: 31px;
+
+}
+.footer-icon__link {
+    border-radius: 40px;
+    background: rgba(128, 128, 128, 0.1); 
     margin-right: 6px;
+    padding: 10px ;
 }
 
 .footer-logo {
@@ -26,12 +32,10 @@
     width: 100%;
     color: var(--dark);
     margin-bottom: 24px;
+    display: block;
 }
 
-/* .footer-item {
-    margin-right: 30px;
 
-} */
 h3 { 
     margin: 0;
 }
