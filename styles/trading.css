@@ -1,0 +1,77 @@
+
+.trading_content {
+    color: var(--dark);
+
+}
+
+.categories {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 48px;
+
+}
+.categories_nav {
+    font-family: var(--font);
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.categories-nav__link {
+    margin-right: 38px;
+    color: var(--dark);
+}
+
+.categories-nav__link:first-child {
+    font-weight: bold;
+}
+
+.categories-nav__link:hover {
+    color: var(--blue);
+}
+
+.trading_items h1 {
+    font-family: var(--secondary-font);
+}
+
+.trading-items {
+    padding: 0 10px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.trading-items__link {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--dark);
+    line-height: 32px;
+    margin-top: 20px;
+}
+
+.trading-items__link:hover {
+    color: var(--blue);
+}
+
+.trading-items-price {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3px;
+    color: var(--grey);
+    font-family: var(--font);
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.btn_more {
+    background-color: var(--blue);
+    height: 350px;
+    width: 260px;
+    border: none;
+    color: #E8EAE9;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: var(--secondary-font);
+}
