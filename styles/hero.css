@@ -7,6 +7,7 @@
     color: #36B37E;
     font-style: normal;
     font-weight: 600;
+    text-transform: uppercase;
     }
 
 .hero {
@@ -31,6 +32,10 @@
     margin-bottom: 28px;
 }
 
+.hero-content {
+    margin-bottom: 52px;
+}
+
 
 .hero p {
     color: var(--grey);
@@ -38,8 +43,9 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 36px;
-    margin-bottom: 52px;
+    margin-bottom: 28px;
 }
+
 
 
 
@@ -53,8 +59,9 @@
     display: flex;
     align-items: center;
     margin-right: 30px;
-    font-style: var(--secondary-font);
+    font-family: var(--secondary-font);
     font-weight: 600;
+    color: var(--dark);
     /* margin-left: 70px; */
 }
 .advantage-item-icon {
