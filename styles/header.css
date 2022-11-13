@@ -29,13 +29,17 @@
     font-size: 16px;
     color: var(--dark);
     text-decoration: none;
-	padding: var(--user-padding);
+	padding: var(--user-padding);   
     }
 
 
 
 .header-nav__link:not(:last-child) {
 	margin-right: calc(var(--gutter) - var(--user-padding) * 2);
+}
+
+.header-nav__link:hover {
+    color: var(--blue);
 }
 
 .logo-main {
