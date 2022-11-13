@@ -35,6 +35,10 @@
     display: block;
 }
 
+.footer-nav__link:hover {
+    color: var(--blue);
+}
+
 
 h3 { 
     margin: 0;
