@@ -62,3 +62,6 @@ body {
     background: var(--dark);
 }
 
+.btn:hover {
+    color: var(--blue);
+}

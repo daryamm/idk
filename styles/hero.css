@@ -8,6 +8,7 @@
     font-style: normal;
     font-weight: 600;
     text-transform: uppercase;
+    font-size: 14px;
     }
 
 .hero {
@@ -36,7 +37,6 @@
     margin-bottom: 52px;
 }
 
-
 .hero p {
     color: var(--grey);
     /* margin-left: 70px; */
@@ -45,10 +45,6 @@
     line-height: 36px;
     margin-bottom: 28px;
 }
-
-
-
-
 
 .advantage {
     display: flex;
@@ -64,6 +60,7 @@
     color: var(--dark);
     /* margin-left: 70px; */
 }
+
 .advantage-item-icon {
     width: 36px;
     height: 36px;
