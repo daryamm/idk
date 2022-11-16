@@ -6,24 +6,28 @@
     margin: 0;
 
 }
+
  .footer-icon {
     margin-top: 31px;
 
 }
+
 .footer-icon__link {
-    border-radius: 40px;
+    border-radius: 80%;
     background: rgba(128, 128, 128, 0.1); 
+    padding: 10px 13px ;
     margin-right: 6px;
-    padding: 10px ;
 }
 
 .footer-logo {
     margin-bottom: 28px;
 } 
+
 .footer-nav {
     margin-top: 31px;
 
 }
+
 .footer-nav__link {
     text-decoration: none;
     font-family: var(--font);
@@ -39,7 +43,6 @@
     color: var(--blue);
 }
 
-
 h3 { 
     margin: 0;
 }
@@ -48,7 +51,9 @@ h3 {
     color: var(--grey);
     font-size: 16px;
     line-height: 28px;
+    font-weight: 400;
 }
+
 .footer-item h3 {
     color: var(--dark);
     font-weight: 700;
