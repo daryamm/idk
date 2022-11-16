@@ -23,6 +23,7 @@
 .header-nav + * {
     margin-left: calc (var(--margin)- var(--user-padding));
 }
+
 .header-nav__link {
     font-family: var(--font);
     font-weight: 600;
@@ -32,10 +33,12 @@
 	padding: var(--user-padding);   
     }
 
-
-
 .header-nav__link:not(:last-child) {
 	margin-right: calc(var(--gutter) - var(--user-padding) * 2);
+}
+
+.header-nav__link:last-child {
+    margin-right: calc(var(--margin) - var(--user-padding));
 }
 
 .header-nav__link:hover {
