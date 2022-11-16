@@ -1,6 +1,8 @@
 
 .trading_content {
     color: var(--dark);
+    margin-top: 140px;
+    margin-bottom: 150px;
 
 }
 
@@ -22,7 +24,7 @@
     color: var(--dark);
 }
 
-.categories-nav__link:first-child {
+.categories-nav__link:active {
     font-weight: bold;
 }
 
@@ -74,4 +76,28 @@
     font-size: 24px;
     line-height: 32px;
     font-family: var(--secondary-font);
+    display: block;
+}
+
+.btn_more:hover {
+    color: var(--dark);
+}
+
+.btn_more h2 {
+    font-weight: 900;
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+.btn_more p {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: var(--secondary-font);
+}
+
+.action_cart {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
 }
