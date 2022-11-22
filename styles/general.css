@@ -53,6 +53,7 @@ body {
     color: var(--blue);
     text-align: center;
     border-color: var(--blue);
+    /* margin-left: 40px; */
     }
 
 .btn_large {
