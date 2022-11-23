@@ -1,9 +1,10 @@
-
 .trading_content {
+    --trading-margin-top: 140px; 
+    --trading-margin-bottom: 150px;
     color: var(--dark);
-    margin-top: 140px;
-    margin-bottom: 150px;
-
+    margin-top: var(--trading-margin);
+    margin-bottom: var(--trading-margin-bottom);
+    /* margin-bottom: 150px; */
 }
 
 .categories {
@@ -12,21 +13,27 @@
     margin-bottom: 48px;
 
 }
+
 .categories_nav {
     font-family: var(--font);
     font-size: 18px;
     display: flex;
     align-items: center;
+    
 }
 
 .categories-nav__link {
     margin-right: 38px;
     color: var(--dark);
+    border: none;
+    background: transparent;
+    cursor: pointer;
 }
 
-.categories-nav__link:active {
+.categories-nav__link.selected {
     font-weight: bold;
 }
+
 
 .categories-nav__link:hover {
     color: var(--blue);
@@ -37,8 +44,11 @@
 }
 
 .trading-items {
-    padding: 0 10px;
     margin-bottom: 50px;
+}
+
+.trading-items__information {
+    padding: 0 10px;
     margin-top: 20px;
 }
 
@@ -49,13 +59,14 @@
     color: var(--dark);
     line-height: 32px;
     margin-top: 20px;
+    
 }
 
 .trading-items__link:hover {
     color: var(--blue);
 }
 
-.trading-items-price {
+.trading-items__price {
     display: flex;
     justify-content: space-between;
     margin-top: 3px;
@@ -63,6 +74,46 @@
     font-family: var(--font);
     font-size: 20px;
     line-height: 36px;
+}
+
+
+@media screen and (max-width:991px) {
+    .categories {
+        display: block ;
+        text-align: center;
+        margin-bottom: 36px;
+        
+    }
+
+    .categories h1 { 
+        margin-bottom: 28px;
+    }
+    .categories_nav {
+        justify-content: center;
+    }
+
+    .trading_content {
+        margin-top: calc((var(--trading-margin-top)/2));
+        margin-bottom: calc((var(--trading-margin-bottom)/2));
+    }
+}
+
+@media screen and (max-width:575px)  {
+    .trading-items {
+        margin-bottom: 20px;
+    }
+
+    .trading-items__price {
+        justify-content: flex-start;
+    }
+
+    .trading-items__price p {
+        margin-right: 9px;
+    }
+    .trading_content {
+        margin-top: calc((var(--trading-margin-top)/3));
+        margin-bottom: calc((var(--trading-margin-bottom)/3));
+    }
 }
 
 .btn_more {
@@ -96,8 +147,15 @@
     font-family: var(--secondary-font);
 }
 
-.action_cart {
+.trading-item__action {
     border: none;
     background-color: transparent;
     cursor: pointer;
 }
+
+.trading-items__picture {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+

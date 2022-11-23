@@ -9,6 +9,8 @@
 }
 
 
+
+
 .header-main__menu {
     display: flex;
     justify-content: flex-end;
@@ -49,4 +51,20 @@
     display: flex;
     align-items: center;
     height: 100%;
+}
+
+@media screen and (max-width:991px) {
+    .header-main {
+        margin-bottom: 30px;
+        height: 64px;
+    }
+    
+}
+
+@media screen and (max-width:575px) {
+    .header-main {
+        margin-bottom: 24px;
+        
+    }
+    
 }

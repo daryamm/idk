@@ -66,3 +66,69 @@ body {
 .btn:hover {
     color: var(--blue);
 }
+
+.btn_tranparent {
+    background: transparent
+}
+
+.btn_icon {
+    padding: 0 12px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+@media screen and (min-width: 576px) {
+    .hidden-sm {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .hidden-md {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .hidden-lg {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .hidden-xl {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .hidden-xs-only {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .hidden-sm-only {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .hidden-md-only {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .hidden-lg-only {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .hidden-xl-only {
+        display: none !important;
+    }
+}
