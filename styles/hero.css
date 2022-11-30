@@ -4,7 +4,7 @@
     background: #E8EAE9 url(../images/Image.jpg) center no-repeat;
     background-size: cover;
 	border-radius: 8px;
-	/* padding: 60px 0; */
+	padding: 60px 0;
 	color: (var(--grey));
     margin: 0 auto 120px;
 
@@ -24,10 +24,7 @@
     
     }
 
-.hero-content p {
-    margin-top: 52px;
 
-}
 
 
 .hero h1 {
@@ -76,11 +73,22 @@
     margin-right: 8px;
 }
 
-@media screen and (max-width: 767px) {
-    .hero-content span {
-        margin-left: 28px;
-        margin-top: 36px;
+@media screen and (max-width:991px) {
+    .hero {
+        width: 95%
     }
+
+    .advantage-item {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .hero {
+        width: 95%;
+        padding: 30px 0;
+    }
+
 
     .hero-content h1 {
         font-size: 48px;
@@ -89,29 +97,53 @@
     .hero-content p {
         font-size: 18px;
     }
+
+
     
 }
 
 @media screen and (max-width: 575px) {
+    .hero {
+        width: 100%;
+        background: url(../images/HeaderImage.jpg) center no-repeat;
+        background-size: cover;
+    }
+
     .hero h1 {
         font-size: 32px;
         margin: 0 auto;
+        text-align: center;
     }
+        
     .hero-content {
-        margin-bottom: 24px;
+        margin: 350px 0 40px ;
     }
    
     .hero-content p {
         font-size: 16px;
         line-height: 28px;
         margin-top: 20px;
+        text-align: center;
+    }
+
+    .hero-button {
+        text-align: center;
+
     }
 
     .advantage {
         text-align: center;
     }
     .advantage-item {
-        margin-bottom: 20px;
+        margin-bottom: 18px; 
+        margin-right: 8px;
+    }
+
+    .advantage-item-icon {
+        width: 24px;
+        height: 24px;
+        padding: 0px;
+        border-radius: 30%;
     }
 }
 
