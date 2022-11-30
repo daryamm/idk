@@ -59,3 +59,15 @@
 .cta-form__input-item:focus {
 	outline: none;
 }
+
+@media screen and (max-width: 575px) {
+.cta-form__content h2 {
+	font-size: 28px;
+	margin-bottom: 24px;
+	}
+
+.cta-form__content p {
+	font-size: 16px;
+	margin-bottom: 36px;
+}
+}
