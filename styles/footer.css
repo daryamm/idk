@@ -70,7 +70,7 @@ h3 {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .footer-heart_picture {
@@ -87,7 +87,16 @@ h3 {
 .footer-heart-information {
     text-align: center;
     margin-top: 24px;
+}
 
+@media screen and (max-width: 991px) {
+    .footer-main {
+        padding: 65px 0;
+    }
+
+    .footer-heart {
+        margin-top: 40px;
+    }
 }
 
 @media screen and (max-width: 575px) {
@@ -100,19 +109,35 @@ h3 {
     }
 
     .footer-logo {
+        margin-top: 45px;
         margin-bottom: 14px;
         text-align: center;
     }
 
+    .footer-main {
+        padding-top: 48px;
+    }
+
     .footer-main h3 {
-        text-align: center;
         font-size: 14px;
         line-height: 24px;
+        text-align: center;
     }
 
     .footer-icon {
         margin-top: 16px;
         margin-bottom: 45px;
         text-align: center;
+    }
+    .footer-main-position {
+        order: 99;
+    }
+
+    .footer-heart {
+        display: none;
+    }
+
+    .footer-heart-information {
+        display: none;
     }
 }
