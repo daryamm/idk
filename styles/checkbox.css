@@ -29,8 +29,8 @@
 }
 
 .custom-checkbox__input:checked + .custom-checkbox__label::before {
-    background-color: var(--blue);
-    background-image: url("data:image/svg+xml,%3Csvg width='22' height='22' viewBox='0 0 22 22' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg filter='url(%23filter0_ddd_483_435)'%3E%3Crect x='3' y='2' width='16' height='16' rx='4' fill='white'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M14 6.80005C13.724 6.80005 13.474 6.91205 13.293 7.09305L12.293 8.09305L10 10.386L8.707 9.09305C8.526 8.91205 8.276 8.80005 8 8.80005C7.448 8.80005 7 9.24805 7 9.80005C7 10.076 7.112 10.326 7.293 10.507L9.293 12.507C9.474 12.688 9.724 12.8 10 12.8C10.276 12.8 10.526 12.688 10.707 12.507L13.707 9.50705L14.707 8.50705C14.888 8.32605 15 8.07605 15 7.80005C15 7.24755 14.552 6.80005 14 6.80005Z' fill='%231565D8'/%3E%3C/g%3E%3Cdefs%3E%3Cfilter id='filter0_ddd_483_435' x='0' y='0' width='22' height='22' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeColorMatrix in='SourceAlpha' type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0' result='hardAlpha'/%3E%3CfeOffset dy='1'/%3E%3CfeGaussianBlur stdDeviation='0.5'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0'/%3E%3CfeBlend mode='normal' in2='BackgroundImageFix' result='effect1_dropShadow_483_435'/%3E%3CfeColorMatrix in='SourceAlpha' type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0' result='hardAlpha'/%3E%3CfeOffset dy='2'/%3E%3CfeGaussianBlur stdDeviation='0.5'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0'/%3E%3CfeBlend mode='normal' in2='effect1_dropShadow_483_435' result='effect2_dropShadow_483_435'/%3E%3CfeColorMatrix in='SourceAlpha' type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0' result='hardAlpha'/%3E%3CfeOffset dy='1'/%3E%3CfeGaussianBlur stdDeviation='1.5'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0'/%3E%3CfeBlend mode='normal' in2='effect2_dropShadow_483_435' result='effect3_dropShadow_483_435'/%3E%3CfeBlend mode='normal' in='SourceGraphic' in2='effect3_dropShadow_483_435' result='shape'/%3E%3C/filter%3E%3C/defs%3E%3C/svg%3E%0A");
+    background-color: #fff;
+    background-image: url("data:image/svg+xml,%3Csvg width='8' height='7' viewBox='0 0 8 7' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M7 0.800049C6.724 0.800049 6.474 0.912049 6.293 1.09305L5.293 2.09305L3 4.38605L1.707 3.09305C1.526 2.91205 1.276 2.80005 1 2.80005C0.448 2.80005 0 3.24805 0 3.80005C0 4.07605 0.112 4.32605 0.293 4.50705L2.293 6.50705C2.474 6.68805 2.724 6.80005 3 6.80005C3.276 6.80005 3.526 6.68805 3.707 6.50705L6.707 3.50705L7.707 2.50705C7.888 2.32605 8 2.07605 8 1.80005C8 1.24755 7.552 0.800049 7 0.800049Z' fill='%231565D8'/%3E%3C/svg%3E%0A");
     background-repeat: no-repeat;
     background-position: center;
     border-color: var(--blue);
@@ -42,4 +42,10 @@
 
 .custom-checkbox__label a:hover {
     color: var(--dark);
+}
+
+@media screen and (max-width: 575px) {
+    .custom-checkbox {
+        margin-top: 60px;
+    }
 }

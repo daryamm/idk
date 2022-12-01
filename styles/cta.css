@@ -60,14 +60,40 @@
 	outline: none;
 }
 
-@media screen and (max-width: 575px) {
-.cta-form__content h2 {
-	font-size: 28px;
-	margin-bottom: 24px;
+@media screen and (max-width: 1199px) {
+	.cta-form__content h2 {
+		margin-bottom: 14px;
+		text-align: center;
+		}
+
+	.cta-form__content p {
+		margin-bottom: 56px;
+		text-align: center;
 	}
 
-.cta-form__content p {
-	font-size: 16px;
-	margin-bottom: 36px;
+}
+
+@media screen and (max-width: 575px) {
+	.cta-form {
+		padding: 64px 0;
+	}
+	.cta-form__content h2 {
+		font-size: 28px;
+		margin-bottom: 24px;
+		line-height: 36px;
+	}
+
+	.cta-form__content p {
+		font-size: 16px;
+		margin-bottom: 36px;
+		line-height: 28px;
+}
+
+	.cta-form__input {
+	flex-wrap: wrap;
+}
+
+	.cta-form__input-item {
+	margin-bottom: 10px;
 }
 }

@@ -41,7 +41,6 @@ body {
     font-size: 18px;
     height: 48px;
     border-radius: 8px;
-    /* margin-left: 70px; */
     cursor: pointer;
 	text-decoration: none;
 	padding: 0 24px;
@@ -130,5 +129,13 @@ body {
 @media screen and (min-width: 1200px) {
     .hidden-xl-only {
         display: none !important;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .btn_black {
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
 }
