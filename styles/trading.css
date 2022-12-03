@@ -1,4 +1,4 @@
-.trading_content {
+.trading-content {
     --trading-margin-top: 140px; 
     --trading-margin-bottom: 150px;
     color: var(--dark);
@@ -20,7 +20,8 @@
     font-size: 18px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
     
 }
 
@@ -30,6 +31,10 @@
     border: none;
     background: transparent;
     cursor: pointer;
+}
+
+.categories-nav__link:not(:last-child) {
+    margin-right: 38px;
 }
 
 .categories-nav__link_selected {
@@ -90,34 +95,17 @@
     .categories h1 { 
         margin-bottom: 28px;
     }
-    .categories_nav {
-        text-align: center;
+    .categories-nav {
         padding: 0;
     }
 
-    .trading_content {
+    .trading-content {
         margin-top: calc((var(--trading-margin-top)/2));
         margin-bottom: calc((var(--trading-margin-bottom)/2));
+
     }
 }
 
-@media screen and (max-width:575px)  {
-    .trading-items {
-        margin-bottom: 20px;
-    }
-
-    .trading-items__price {
-        justify-content: flex-start;
-    }
-
-    .trading-items__price p {
-        margin-right: 9px;
-    }
-    .trading_content {
-        margin-top: calc((var(--trading-margin-top)/3));
-        margin-bottom: calc((var(--trading-margin-bottom)/3));
-    }
-}
 
 .btn-information {
     position: absolute;
@@ -160,16 +148,38 @@
     font-family: var(--secondary-font);
 }
 
-
-
 @media screen and (max-width:575px)  {
+    .trading-items {
+        margin-bottom: 20px;
+    }
+
+    .trading-items__price {
+        justify-content: flex-start;
+    }
+
+    .trading-items__price p {
+        margin-right: 9px;
+    }
+    .trading-content {
+        margin-top: calc((var(--trading-margin-top)/3));
+        margin-bottom: calc((var(--trading-margin-bottom)/3));
+    }
+
+    .categories-nav__link {
+        margin: 0;
+    }
+
+    .categories-nav__link:not(:last-child) {
+        margin: 0;
+    }
     .categories-nav {
         width: 100%;
         padding: 0;
     }
     .categories-nav__link {
         font-size: 16px;
-        margin-right: 16px;
+        margin: 0;
+        padding: 5px 6px;
     }
     
     .btn_more h2 {
