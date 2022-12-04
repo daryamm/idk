@@ -23,8 +23,8 @@
     margin-right: 6px;
 }
 
-.footer-logo {
-    margin-bottom: 28px;
+.footer-logo h3 {
+    margin-top: 28px;
 } 
 
 .footer-nav {
@@ -100,16 +100,20 @@ h3 {
 }
 
 @media screen and (max-width: 575px) {
+    .footer-item {
+        margin-bottom: 40px;
+    }
     .footer-item h3 {
         font-size: 16px ;
+        margin-bottom: 20px;
         
     }
     .footer-nav__link {
         font-size: 14px;
+        margin-bottom: 15px;
     }
 
     .footer-logo {
-        margin-top: 45px;
         margin-bottom: 14px;
         text-align: center;
     }
@@ -121,7 +125,6 @@ h3 {
     .footer-main h3 {
         font-size: 14px;
         line-height: 24px;
-        text-align: center;
     }
 
     .footer-icon {
@@ -139,5 +142,9 @@ h3 {
 
     .footer-heart-information {
         display: none;
+    }
+
+    .footer-logo h3 {
+        text-align: center;
     }
 }
