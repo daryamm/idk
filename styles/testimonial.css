@@ -1,0 +1,35 @@
+.testimonial-main {
+    margin-bottom: 80px;
+}
+
+.testimonial-main__picture {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.testimonial-main p {
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 42px;
+    text-align: center;
+    color: var(--dark);
+    margin-bottom: 28px;
+}
+
+.testimonial-main h3 {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: var(--dark);
+    
+}
+
+@media screen and (max-width: 575px) {
+    .testimonial-main p {
+        font-size: 18px;
+        line-height: 36px;
+    }
+}
