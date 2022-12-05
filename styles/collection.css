@@ -62,4 +62,12 @@
     .collection-main__action {
         text-align: center;
     }
+
+    .collection-main__items {
+        display: flex;
+    }
+    .collection-main__items .collection-main__link {
+        margin: 7px;
+    }
+
 }
