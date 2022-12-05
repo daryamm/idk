@@ -60,7 +60,9 @@
     }
 
     .collection-main__action {
+        display: block;
         text-align: center;
+        font-size: 16px;
     }
 
     .collection-main__items {
