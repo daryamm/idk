@@ -1,5 +1,7 @@
 @import "general.css";
 @import "grid.css";
+@import "display.css";
+
 @import "header.css";
 @import "hero.css";
 @import "collection.css";
