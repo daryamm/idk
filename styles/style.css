@@ -1,17 +1,20 @@
-@import "general.css";
-@import "grid.css";
-@import "display.css";
+@import 'general.css';
 
-@import "header.css";
-@import "hero.css";
-@import "collection.css";
-@import "page.css";
-@import "trading.css";
-@import "testimonial.css";
-@import "stories.css";
-@import "cta.css";
-@import "footer.css";
-@import "checkbox.css"
+@import './tools/page.css';
+@import './tools/grid.css';
+@import './tools/display.css';
+@import './tools/checkbox.css';
+@import './tools/order.css';
+
+@import './blocks/header.css';
+@import './blocks/hero.css';
+@import './blocks/collection.css';
+@import './blocks/trading.css';
+@import './blocks/testimonial.css';
+@import './blocks/stories.css';
+@import './blocks/cta.css';
+@import './blocks/footer.css';
+
 
 
 

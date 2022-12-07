@@ -47,6 +47,11 @@
     .collection-main img {
         margin: 7px;
     }
+
+    .collection-main__information {
+        margin: 0;
+    }
+
     .collection-main__information h2 {
         font-size: 28px;
         text-align: center;

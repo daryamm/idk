@@ -1,7 +1,8 @@
 
 .hero {
     max-width: 1280px;
-    background: #E8EAE9 url(../images/Image.jpg) center no-repeat;
+    background: #E8EAE9 url(../images/Bitmap.jpg) center no-repeat;
+    
     background-size: cover;
 	border-radius: 8px;
 	padding: 60px 0;
