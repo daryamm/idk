@@ -4,23 +4,22 @@
     margin-bottom: 140px;
 }
 
-
-.stories-block h2 {
+/* .stories-block h2 {
     margin-top: 28px;
     font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 48px;
     color: var(--dark);
     margin-bottom: 24px;
-}
-
+} */
+/*
 .stories-block p {
     font-family: 'Open Sans';
     font-weight: 400;
     font-size: 20px;
     line-height: 36px;
     color: var(--grey);
-}
+} */
 
 .btn_circle {
     border-radius: 100%;
@@ -72,8 +71,8 @@
 
     .stories-block h2 {
         text-align: center;
-    } 
-    
+    }
+
     .stories-button {
         display: flex;
         justify-content: center;
@@ -86,7 +85,7 @@
         display: block;
         text-align: center;
     }
-    
+
     .stories-block p {
         font-size: 16px;
         line-height: 28px;
@@ -94,8 +93,8 @@
 
     .stories-block h2 {
         font-size: 28px;
-    } 
-    
+    }
+
     .stories-button {
         display: flex;
         justify-content: center;

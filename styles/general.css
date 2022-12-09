@@ -4,7 +4,6 @@
     --grey: #5A7184;
     --font: 'Open Sans', sans-serif;
     --secondary-font: 'HK Grotesk', sans-serif;
-
 }
 
 *,
@@ -12,8 +11,14 @@
 *::after {
     box-sizing: border-box;
 }
+
 a {
     text-decoration: none;
+    color: var(--blue);
+}
+
+a:hover {
+    color: var(--dark);
 }
 
 h1,
@@ -21,16 +26,20 @@ h2,
 h3,
 h4,
 h5,
-h6 { 
+h6 {
+    font-family: var(--secondary-font);
     font-weight: bold;
     margin: 0;
+    line-height: 1.25;
 }
+
 p {
     margin: 0;
 }
 
 body {
     font-family: var(--font);
+    line-height: 1.25;
 	font-size: 16px;
     font-style: normal;
 }
@@ -49,6 +58,26 @@ body {
 	border: 2px solid transparent;
 }
 
+.btn-link {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+    .btn-link {
+        font-weight: 700;
+        font-size: 18px;
+    }
+}
+
+.btn-icon:first-child {
+    margin-right: 30px;
+}
+
+.btn-icon:last-child {
+    margin-left: 30px;
+}
+
 .btn_outline {
     background: transparent;
     color: var(--blue);
@@ -60,12 +89,18 @@ body {
 .btn_large {
     height: 56px;
 }
+
 .btn_black {
     background: var(--dark);
 }
 
 .btn:hover {
     color: var(--blue);
+}
+
+.btn_black:hover {
+    color: #fff;
+    background: var(--blue);
 }
 
 .btn_tranparent {
