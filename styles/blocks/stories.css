@@ -3,14 +3,17 @@
     padding-bottom: 140px;
 }
 
+.stories-block__content {
+    margin-bottom: 36px;
+}
+
 .stories-element__title {
-    font-family: var(--font);
+    font-family: var(--secondary-font);
     font-style: normal;
     font-weight: 600;
-    font-size: 22px;
-    line-height: 32px;
+    font-size: 20px;
+    line-height: 24px;
     color: var(--dark);
-    margin-bottom: 12px;
 }
 
 .stories-element__preview {
@@ -19,7 +22,7 @@
 }
 
 .stories-element__content {
-    padding: 20px 30px 20px 20px;
+    padding: 20px 10px 20px 20px;
     background: #fafdff;
 }
 
@@ -34,4 +37,21 @@
 
 .stories-button {
     margin-top: 42px;
+}
+
+@media screen and (min-width: 768px) {
+    .stories-element__title {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .stories-element__content {
+        padding: 20px 30px 20px 20px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .stories-block__content {
+        margin-bottom: 0;
+    }
 }
