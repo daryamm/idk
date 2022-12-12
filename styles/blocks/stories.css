@@ -24,9 +24,7 @@
 .stories-element__content {
     padding: 20px 10px 20px 20px;
     background: #ddd;
-    position: relative;
-    top: -20px;
-    left: 10px;
+    transform: translateX(10px) translateY(-20px);
 }
 
 .stories-element__content > *:not(:last-child) {
