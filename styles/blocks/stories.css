@@ -1,7 +1,6 @@
 .stories-block {
-    margin-top: 80px;
     padding-top: 130px;
-    margin-bottom: 140px;
+    padding-bottom: 140px;
 }
 
 /* .stories-block h2 {
@@ -31,7 +30,6 @@
 
 .stories-block__items {
     display: flex;
-
 }
 
 .stories-block__action {
@@ -60,7 +58,7 @@
     margin-top: 42px;
 }
 
-@media screen and (max-width:991px) {
+@media screen and (max-width: 991px) {
     .stories-block__items {
         text-align: center;
     }
