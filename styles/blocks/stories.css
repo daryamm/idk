@@ -19,14 +19,14 @@
 .stories-element__preview {
     border-radius: 8px;
     overflow: hidden;
+    max-width: calc(100% - 10px);
 }
 
 .stories-element__content {
     padding: 20px 10px 20px 20px;
-    background: #ddd;
+    background: #fafdff;
     position: relative;
     z-index: 2;
-    width: 100%;
     margin-top: -20px;
     margin-left: 10px;
 }
