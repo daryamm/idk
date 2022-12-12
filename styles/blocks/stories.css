@@ -3,40 +3,7 @@
     padding-bottom: 140px;
 }
 
-/* .stories-block h2 {
-    margin-top: 28px;
-    font-family: var(--secondary-font);
-    font-weight: 700;
-    font-size: 48px;
-    color: var(--dark);
-    margin-bottom: 24px;
-} */
-/*
-.stories-block p {
-    font-family: 'Open Sans';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 36px;
-    color: var(--grey);
-} */
-
-.btn_circle {
-    border-radius: 100%;
-    height: 56px;
-    width: 56px;
-    padding: 20px;
-    margin-right: 22px;
-}
-
-.stories-block__items {
-    display: flex;
-}
-
-.stories-block__action {
-    margin: 20px 30px;
-}
-
-.stories-block__action h4 {
+.stories-element__title {
     font-family: var(--font);
     font-style: normal;
     font-weight: 600;
@@ -46,67 +13,25 @@
     margin-bottom: 12px;
 }
 
-.stories-block__action a {
-    font-family: var(--secondary-font);
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    color: var(--blue);
+.stories-element__preview {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.stories-element__content {
+    padding: 20px 30px 20px 20px;
+    background: #fafdff;
+}
+
+.stories-element__content > *:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+.stories-element__image {
+    display: block;
+    width: 100%;
 }
 
 .stories-button {
     margin-top: 42px;
-}
-
-@media screen and (max-width: 991px) {
-    .stories-block__items {
-        text-align: center;
-    }
-
-    .stories-block p {
-        text-align: center;
-    }
-
-    .stories-block h2 {
-        text-align: center;
-    }
-
-    .stories-button {
-        display: flex;
-        justify-content: center;
-        order: 99;
-    }
-}
-
-@media screen and (max-width: 575px) {
-    .stories-block__items {
-        display: block;
-        text-align: center;
-    }
-
-    .stories-block p {
-        font-size: 16px;
-        line-height: 28px;
-    }
-
-    .stories-block h2 {
-        font-size: 28px;
-    }
-
-    .stories-button {
-        display: flex;
-        justify-content: center;
-        order: 99;
-    }
-
-    .stories-block__action h4 {
-        font-size: 20px;
-    }
-
-    .btn_circle {
-        height: 48px;
-        width: 48px;
-        padding: 15px;
-        margin-right: 16px;
-    }
 }
