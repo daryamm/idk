@@ -2,67 +2,32 @@
     margin-bottom: 140px;
 }
 
-.collection-main__imgage {
+.collection-main__picture {
     width: 100%;
+    border-radius: 8px;
     display: block;
+    margin: 7px;
 }
 
 
 .collection-main__item {
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     border-radius: 8px;
     overflow: hidden;
 
 }
 
-.collection-main__information {
-    margin-top: 30px;
-}
-
-
-.collection-main__action {
-    font-family: var(--font);
-    font-weight: 700;
-    font-size: 18px;
-    color: var(--blue);
-}
-
-.collection-main__action svg {
-    margin-left: 16px;
-}
 
 @media screen and (max-width: 575px) {
-    .collection-main img {
-        margin: 7px;
+    .collection-main__text {
+        margin-top: 0px;
     }
 
-    .collection-main__information {
-        margin: 0;
+    .collection-main__item {
+        margin-bottom: 10px;
     }
-
-    .collection-main__information h2 {
-        font-size: 28px;
-        text-align: center;
-        margin-bottom: 16px;
-        margin-top: 36px;
-    }
-    .collection-main__information p {
-        font-size: 16px;
-        line-height: 28px;
-        text-align: center;
-    }
-
-    .collection-main__action {
-        display: block;
-        text-align: center;
-        font-size: 16px;
-    }
-
-    .collection-main__items {
-        display: flex;
-    }
-    .collection-main__items .collection-main__link {
-        margin: 7px;
+    .collection-main__picture {
+        margin: 15px;
     }
 
 }
