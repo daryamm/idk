@@ -2,35 +2,23 @@
     margin-bottom: 140px;
 }
 
-.collection-main img {
-    margin: 13px;
+.collection-main__imgage {
     width: 100%;
+    display: block;
 }
 
-.collection-main__link {
-    display: flex;
+
+.collection-main__item {
+    margin-bottom: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+
 }
 
 .collection-main__information {
-    margin-left: 40px;
+    margin-top: 30px;
 }
 
-.collection-main__information h2 {
-    font-family: var(--secondary-font);
-    font-weight: 700;
-    font-size: 48px;
-    color: var(--dark);
-    margin-bottom: 24px;
-}
-
-.collection-main__information p {
-    font-family: var(--font);
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 36px;
-    color: var(--grey);
-    margin-bottom: 32px;
-}
 
 .collection-main__action {
     font-family: var(--font);
