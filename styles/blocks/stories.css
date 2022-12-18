@@ -5,73 +5,73 @@
 
 .stories-block__items {
     display: flex;
-
 }
 
-.stories-block__action {
-    margin: 20px 30px;
+.stories-element__title {
+    font-family: var(--secondary-font);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.45;
+    color: var(--dark);
+    margin-bottom: 12px;
+}
+
+.stories-block__content {
+    margin-bottom: 26px;
+    text-align: center;
+}
+
+.stories-element__preview {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.stories-element__content {
+    padding: 20px 10px 20px 20px;
+    background: var(--bs-white);
+    position: relative;
+    z-index: 2;
+    margin-top: -20px;
+    margin-left: 10px;
 }
 
 .stories-button {
     margin-top: 42px;
+    justify-content: center;
 }
 
-.stories-block__information {
-    margin: 14px;
+.stories-element__content > *:not(:last-child) {
+    margin-bottom: 12px;
 }
 
-.stories-block__information img {
+.stories-element__picture {
+    display: block;
     width: 100%;
 }
 
-@media screen and (max-width:991px) {
-    .stories-block__items {
-        text-align: center;
+@media screen and (min-width:768px) {
+    .stories-block__content {
+        margin-bottom: 36px;
     }
 
-    .stories-block p {
-        text-align: center;
+    .stories-element__title {
+        font-size: 22px;
+        line-height: 1.2;
     }
 
-    .stories-block h2 {
-        text-align: center;
-    } 
+    .stories-element__content {
+        padding: 20px 30px 20px 20px;
+    }
+
     
-    .stories-button {
-        display: flex;
-        justify-content: center;
-    }
 }
 
-@media screen and (max-width: 575px) {
-    .stories-block__items {
-        display: block;
-        text-align: center;
+@media screen and (min-width:1200px) {
+    .stories-block__content {
+        text-align: initial;
     }
-    
-    .stories-block p {
-        font-size: 16px;
-        line-height: 28px;
-    }
-
-    .stories-block h2 {
-        font-size: 28px;
-    } 
     
     .stories-button {
-        display: flex;
-        justify-content: center;
-        order: 99;
-    }
-
-    .stories-block__action h4 {
-        font-size: 20px;
-    }
-
-    .btn_circle {
-        height: 48px;
-        width: 48px;
-        padding: 15px;
-        margin-right: 16px;
+        justify-content: flex-start;
     }
 }
