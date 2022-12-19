@@ -1,14 +1,12 @@
-
 .hero {
     max-width: 1280px;
-    background: #E8EAE9 url(/images/Image.jpg) center no-repeat;
-    
+    width: calc(100% - 40px);
+    background: #e8eae9 url(/images/Image.jpg) top center no-repeat;
     background-size: cover;
-	border-radius: 8px;
-	padding: 60px 0;
-	color: (var(--grey));
+    border-radius: 8px;
+    padding: 60px 0;
+    color: (var(--grey));
     margin: 0 auto 120px;
-
 }
 
 .tag {
@@ -17,21 +15,17 @@
     height: 20px;
     background: #c1dacf;
     border-radius: 30px;
-    color: #36B37E;
+    color: #36b37e;
     font-style: normal;
     font-weight: 600;
     text-transform: uppercase;
     font-size: 14px;
-    
-    }
-
-
-
+}
 
 .hero h1 {
     color: var(--dark);
     /* margin-left: 70px; */
-    font-family: var(--secondary-font) ;
+    font-family: var(--secondary-font);
     font-size: 56px;
     margin-top: 0;
     margin-bottom: 28px;
@@ -74,11 +68,7 @@
     margin-right: 8px;
 }
 
-@media screen and (max-width:991px) {
-    .hero {
-        width: 95%
-    }
-
+@media screen and (max-width: 991px) {
     .advantage-item {
         margin-right: 20px;
     }
@@ -86,10 +76,8 @@
 
 @media screen and (max-width: 767px) {
     .hero {
-        width: 95%;
         padding: 30px 0;
     }
-
 
     .hero-content h1 {
         font-size: 48px;
@@ -98,15 +86,12 @@
     .hero-content p {
         font-size: 18px;
     }
-
-
-    
 }
 
 @media screen and (max-width: 575px) {
     .hero {
         width: 100%;
-        background: #E8EAE9 url(/images/HeaderImage.jpg) center no-repeat;
+        background: #e8eae9 url(/images/HeaderImage.jpg) center no-repeat;
         background-size: cover;
         background-position: top;
         border-radius: 0%;
@@ -118,11 +103,11 @@
         margin: 0 auto;
         text-align: center;
     }
-        
+
     .hero-content {
-        margin: 350px 0 40px ;
+        margin: 350px 0 40px;
     }
-   
+
     .hero-content p {
         font-size: 16px;
         line-height: 28px;
@@ -132,14 +117,13 @@
 
     .hero-button {
         text-align: center;
-
     }
 
     .advantage {
         text-align: center;
     }
     .advantage-item {
-        margin-bottom: 18px; 
+        margin-bottom: 18px;
         margin-right: 8px;
     }
 
@@ -155,4 +139,3 @@
         height: 15px;
     }
 }
-
