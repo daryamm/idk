@@ -1,6 +1,6 @@
 .container {
     --max-width-sm: 540px;
-    --max-width-md: 640px;
+    --max-width-md: 670px;
     --max-width-lg: 800px;
     --max-width-xl: 1140px;
 
@@ -16,87 +16,86 @@
     }
 }
 
-@media screen and (min-width:576px) {
+@media screen and (min-width: 576px) {
     .container {
-        max-width: var(--max-width-sm) ;
+        max-width: var(--max-width-sm);
     }
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
     .container {
         max-width: var(--max-width-md);
     }
 }
 
-@media screen and (min-width:992px) {
+@media screen and (min-width: 992px) {
     .container {
         max-width: var(--max-width-lg);
     }
 }
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width: 1200px) {
     .container {
         max-width: var(--max-width-xl);
     }
-    
 }
 
 .row {
     --gutter: 30px;
-    margin-left: calc(var(--gutter)/-2);
-    margin-right: calc(var(--gutter)/-2);
+    margin-left: calc(var(--gutter) / -2);
+    margin-right: calc(var(--gutter) / -2);
     display: flex;
     flex-wrap: wrap;
 }
 
-@media screen and (max-width:575px) {
+@media screen and (max-width: 575px) {
     .row {
-    --gutter: 10px;
+        --gutter: 10px;
     }
 }
 
 .row > * {
     width: 100%;
     max-width: 100%;
-    padding-left: calc(var(--gutter)/2);
-    padding-right: calc(var(--gutter)/2);
+    padding-left: calc(var(--gutter) / 2);
+    padding-right: calc(var(--gutter) / 2);
     flex-shrink: 0;
 }
 .col-1 {
-    width: calc(100%/12);
+    width: calc(100% / 12);
 }
 .col-2 {
-    width: calc(100%/6);
+    width: calc(100% / 6);
 }
 .col-3 {
-    width: calc(100%/4);
+    width: calc(100% / 4);
 }
 .col-4 {
-    width: calc(100%/3);
+    width: calc(100% / 3);
 }
 .col-5 {
-    width: calc(100%/2.4);
+    width: calc(100% / 2.4);
 }
 .col-6 {
-    width: calc(100%/2);
+    width: calc(100% / 2);
 }
 .col-7 {
-    width: calc(100%/1.714);
+    width: calc(100% / 1.714);
 }
 .col-8 {
-    width: calc(100%/1.5);
+    width: calc(100% / 1.5);
 }
 .col-9 {
-    width: calc(100%/1.3334);
+    width: calc(100% / 1.3334);
 }
 .col-10 {
-    width: calc(100%/1.2);
+    width: calc(100% / 1.2);
 }
 .col-11 {
-    width: calc(100%/1.091);
+    width: calc(100% / 1.091);
 }
 .col-12 {
-    width: calc(100%/1);
+    width: calc(100% / 1);
 }
 
 @media screen and (min-width: 576px) {
