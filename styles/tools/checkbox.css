@@ -1,8 +1,9 @@
 .custom-checkbox {
-    width: 200px;
+    /* width: 200px; */
     position: relative;
     padding-left: 1.5rem;
-    margin-top: 13px;
+    line-height: 1.4;
+    /* margin-top: 13px; */
 }
 
 .custom-checkbox__input {
@@ -17,14 +18,14 @@
     content: '';
     width: 1rem;
     height: 1rem;
-    display:inline-block ;
+    display: inline-block;
     border: 1px solid;
     border-radius: 4px;
     background: #fff;
     margin-right: 1rem;
     flex-shrink: 0;
     position: absolute;
-    top: 0;
+    top: 3px;
     left: 0;
 }
 
@@ -46,7 +47,7 @@
 
 @media screen and (max-width: 575px) {
     .custom-checkbox {
-        margin-top: 60px;
-        font-size: 12px;
+        /* margin-top: 60px; */
+        /* font-size: 12px; */
     }
 }

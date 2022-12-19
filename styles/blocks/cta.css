@@ -1,99 +1,87 @@
 .cta-form {
-	background: var(--blue);
-	color: #fff;
-	padding: 100px 0;
+    background: var(--blue);
+    color: #fff;
+    padding: 64px 0;
 }
-
-.cta-form__content {
-	font-size: 18px;
-	line-height: 32px;
-}
-
-.cta-form__content h2 {
-    font-family: var(--secondary-font);
-	font-size: 48px;
-	line-height: 60px;
-	letter-spacing: 0.2px;
-	color: #FFFFFF; 
-}
-.cta-form__content p {
-    font-family: var(--font);
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 32px;
-    color: #FFFFFF;
-}
-
 
 .cta-form__form {
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	padding: 0 50px;
+    height: 100%;
+    margin-top: 36px;
 }
 
 .cta-form__input {
-	background: #FFFFFF;
-	border: 1px solid #C3CAD9;
-	border-radius: 8px;
-	height: 56px;
-	display: flex;
-	padding: 3px;
-}
-
-.cta-form__input-item {
-	height: 100%;
-	flex-grow: 1;
-	border: none;
-	background: transparent;
-	padding: 0 12px;
-	color: var(--dark);
-}
-
-.cta-form__input-item::placeholder {
-	color: #959EAD;
+    margin-bottom: 10px;
 }
 
 .cta-form__input-item:focus {
-	outline: none;
+    outline: none !important;
 }
 
-@media screen and (max-width: 1199px) {
-	.cta-form__content h2 {
-		margin-bottom: 14px;
-		text-align: center;
-		}
+@media screen and (min-width: 768px) {
+    .cta-form__form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 
-	.cta-form__content p {
-		margin-bottom: 56px;
-		text-align: center;
-	}
+    .cta-form__input {
+        background: #ffffff;
+        border: 1px solid #c3cad9;
+        border-radius: 8px;
+        height: 56px;
+        display: flex;
+        padding: 3px;
+    }
 
+    .cta-form__input-item {
+        height: 100%;
+        flex-grow: 1;
+        border: none;
+        background: transparent;
+        padding: 0 12px;
+        color: var(--dark);
+    }
 }
 
-@media screen and (max-width: 575px) {
-	.cta-form {
-		padding: 64px 0;
-	}
-	.cta-form__content h2 {
-		font-size: 28px;
-		margin-bottom: 24px;
-		line-height: 36px;
-	}
-
-	.cta-form__content p {
-		font-size: 16px;
-		margin-bottom: 36px;
-		line-height: 28px;
+@media screen and (min-width: 992px) {
+    .cta-form__form {
+        margin-top: 0;
+    }
 }
 
-	.cta-form__input {
-	flex-wrap: wrap;
+@media screen and (min-width: 1200px) {
+    .cta-form {
+        padding: 100px 0;
+    }
+
+    .cta-form__form {
+        padding: 0 50px;
+    }
 }
 
-	.cta-form__input-item {
-	margin-bottom: 10px;
-}
+@media screen and (max-width: 767px) {
+    .cta-form__input-item {
+        background: #ffffff;
+        border: 1px solid #c3cad9;
+        border-radius: 8px;
+        height: 56px;
+        display: flex;
+        padding: 0 20px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .cta-form__input-item::placeholder {
+        color: #959ead;
+    }
+
+    .cta-form__input-item:focus {
+        outline: none;
+    }
+
+    .cta-form__submit {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
 }
