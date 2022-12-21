@@ -1,5 +1,6 @@
 .testimonial-main {
-    margin-bottom: 80px;
+    padding-bottom: 80px;
+    
 }
 
 .testimonial-main__picture {
@@ -7,17 +8,17 @@
     margin-bottom: 24px;
 }
 
-.testimonial-main p {
+.testimonial-main__text {
     font-family: var(--secondary-font);
     font-weight: 400;
-    font-size: 20px;
-    line-height: 42px;
+    font-size: 18px;
+    line-height: 36px;
     text-align: center;
     color: var(--dark);
     margin-bottom: 28px;
 }
 
-.testimonial-main h3 {
+.testimonial-main__name {
     font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 20px;
@@ -27,9 +28,18 @@
     
 }
 
-@media screen and (max-width: 575px) {
-    .testimonial-main p {
-        font-size: 18px;
-        line-height: 36px;
+@media screen and (min-width: 992px)  {
+    .testimonial-main {
+        width: 800px;
+        margin: 0 auto;
+        
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .testimonial-main__text {
+        font-size: 20px;
+        line-height: 42px;
     }
 }
