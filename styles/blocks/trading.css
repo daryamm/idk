@@ -11,8 +11,6 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 48px;
-    
-
 }
 
 .categories-nav {
@@ -44,10 +42,6 @@
 
 .categories-nav__link:hover {
     color: var(--blue);
-}
-
-.trading_items h1 {
-    font-family: var(--secondary-font);
 }
 
 .trading-items {
@@ -106,13 +100,19 @@
     }
 }
 
-
 .btn-information {
+    font-size: 20px;
     position: absolute;
     top: 50%;
     left: 0;
     width: 100%;
     transform: translateY(-50%);
+    text-align: center;
+    padding: 0 24px;
+}
+
+.btn-information__text {
+    margin-top: 20px;
 }
 
 .btn_more {
@@ -135,17 +135,17 @@
     color: var(--dark);
 }
 
-.btn-information h2 {
-    font-weight: bold;
-    font-size: 32px;
-    margin-bottom: 25px;
-}
 
-.btn-information p {
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 32px;
-    font-family: var(--secondary-font);
+
+@media screen and (min-width:768px) {
+    .btn-information {
+        font-size: 24px;
+        padding: 0;
+    }
+
+    .btn-information__text {
+        margin-top: 25px;
+    }
 }
 
 @media screen and (max-width:575px)  {
