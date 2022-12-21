@@ -18,6 +18,14 @@
 
 }
 
+.block-text_reverse {
+    color: #fff;
+}
+
+.block-text_reverse .block-text__title {
+    color: #fff;
+}
+
 
 @media screen and (min-width: 576px) {
     .block-text {
