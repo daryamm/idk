@@ -28,7 +28,7 @@
 
 .stories-element__content {
     padding: 20px 10px 20px 20px;
-    background: var(--bs-white);
+    background: var(--white);
     position: relative;
     z-index: 2;
     margin-top: -20px;
@@ -63,7 +63,6 @@
         padding: 20px 30px 20px 20px;
     }
 
-    
 }
 
 @media screen and (min-width:1200px) {
