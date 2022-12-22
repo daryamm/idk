@@ -1,8 +1,7 @@
 
 .hero {
-    max-width: 1280px;
-    background: #E8EAE9 url(/images/Image.jpg) center no-repeat;
-    
+    max-width: calc(100%-40px);
+    background: #E8EAE9 url(/images/image.jpg) top center no-repeat;
     background-size: cover;
 	border-radius: 8px;
 	padding: 60px 0;
@@ -106,7 +105,7 @@
 @media screen and (max-width: 575px) {
     .hero {
         width: 100%;
-        background: #E8EAE9 url(/images/HeaderImage.jpg) center no-repeat;
+        background: #E8EAE9 url(/images/headerimage.jpg) center no-repeat;
         background-size: cover;
         background-position: top;
         border-radius: 0%;
