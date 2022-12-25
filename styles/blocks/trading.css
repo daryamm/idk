@@ -115,7 +115,7 @@
     margin-top: 20px;
 }
 
-.btn_more {
+.btn-more {
     background-color: var(--blue);
     width: 100%;
     border: none;
@@ -131,8 +131,11 @@
 
 }
 
-.btn_more:hover {
-    color: var(--dark);
+
+
+.btn-more:hover {
+    background-color: var(--dark);
+    color: var(--white);
 }
 
 
@@ -172,20 +175,22 @@
     .categories-nav__link:not(:last-child) {
         margin: 0;
     }
+
     .categories-nav {
         width: 100%;
         padding: 0;
     }
+
     .categories-nav__link {
         font-size: 16px;
         margin: 0;
         padding: 5px 6px;
     }
     
-    .btn_more h2 {
+    .btn-more h2 {
         font-size: 28px;
     }
-    .btn_more p {
+    .btn-more p {
         font-size: 20px;
     }
 
