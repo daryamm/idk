@@ -70,7 +70,7 @@
 @media screen and (max-width: 767px) {
     .cta-form__input-item {
         background: #ffffff;
-        border: 1px solid #c3cad9;
+        border: 1px solid var(--grey);
         border-radius: 8px;
         height: 56px;
         display: flex;
@@ -80,7 +80,7 @@
     }
 
     .cta-form__input-item::placeholder {
-        color: #2269e2;
+        color: var(--grey);
     }
 
     .cta-form__input-item:focus {
