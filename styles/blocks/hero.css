@@ -1,17 +1,22 @@
 
 .hero {
-    max-width: calc(100%-40px);
-    background: #E8EAE9 url(/images/image.jpg) top center no-repeat;
+    width: 100%;
+    background: #E8EAE9 url('/images/headerimage.jpg') top no-repeat;
     background-size: cover;
-	border-radius: 8px;
-	padding: 60px 0;
-	color: (var(--grey));
-    margin: 0 auto 120px;
+	border-radius: 0%;
+	color: var(--grey);
+    padding-top: 380px;
+    padding-bottom: 36px;
+    line-height: 1.75;
+    text-align: center;
+    font-size: 16px;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 60px;
 
 }
 
 .tag {
-    margin-top: 62px;
     padding: 6px 16px;
     height: 20px;
     background: #c1dacf;
@@ -22,136 +27,109 @@
     text-transform: uppercase;
     font-size: 14px;
     
+    
     }
 
-
-
-
-.hero h1 {
+.hero-content__title {
     color: var(--dark);
-    /* margin-left: 70px; */
     font-family: var(--secondary-font) ;
-    font-size: 56px;
-    margin-top: 0;
-    margin-bottom: 28px;
+    font-size: 32px;
 }
 
-.hero-content {
-    margin-bottom: 52px;
+.hero-button {
+    margin-top: 24px;
 }
 
-.hero p {
-    color: var(--grey);
-    /* margin-left: 70px; */
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 36px;
-    margin-bottom: 28px;
-}
 
 .advantage {
-    margin-top: 48px;
+    margin-top: 20px;
 }
 
 .advantage-item {
+    font-size: 16px;
     display: inline-flex;
     align-items: center;
-    margin-right: 30px;
+    margin-right: 8px;
+    margin-left: 8px;
     font-family: var(--secondary-font);
     font-weight: 600;
     color: var(--dark);
-    margin-bottom: 46px;
+}
+
+.advantage-item:not(:last-child) {
+    margin-bottom: 16px;
 }
 
 .advantage-item-icon {
-    flex-wrap: wrap;
-    width: 36px;
-    height: 36px;
-    padding: 7px;
+    display: flex;
+    width: 24px;
+    height: 24px;
     border: 1px solid var(--blue);
-    border-radius: 12px;
+    border-radius: 8px;
     margin-right: 8px;
 }
 
-@media screen and (max-width:991px) {
-    .hero {
-        width: 95%
-    }
-
-    .advantage-item {
-        margin-right: 20px;
-    }
+.advantage-item-icon > svg {
+    display: block;
+    width: 14px;
+    height: 14px;
+    margin: auto;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width:768px) {
     .hero {
-        width: 95%;
-        padding: 30px 0;
+        width: calc(100% - 40px);
+        background: #E8EAE9 url('/images/image.jpg') center top no-repeat;
+        background-size: cover;
+        border-radius: 8px;
+        text-align: initial;
+        padding: 36px 0;
     }
 
-
-    .hero-content h1 {
+    .hero-content__title {
         font-size: 48px;
     }
 
-    .hero-content p {
-        font-size: 18px;
-    }
-
-
-    
-}
-
-@media screen and (max-width: 575px) {
-    .hero {
-        width: 100%;
-        background: #E8EAE9 url(/images/headerimage.jpg) center no-repeat;
-        background-size: cover;
-        background-position: top;
-        border-radius: 0%;
-        margin-bottom: 60px;
-    }
-
-    .hero h1 {
-        font-size: 32px;
-        margin: 0 auto;
-        text-align: center;
-    }
-        
-    .hero-content {
-        margin: 350px 0 40px ;
-    }
-   
-    .hero-content p {
-        font-size: 16px;
-        line-height: 28px;
-        margin-top: 20px;
-        text-align: center;
-    }
-
     .hero-button {
-        text-align: center;
-
+        margin-top: 36px;
     }
 
     .advantage {
-        text-align: center;
+        margin-top: 48px;
     }
+    
     .advantage-item {
-        margin-bottom: 18px; 
-        margin-right: 8px;
+        margin: auto 0;
+    }
+
+    .advantage-item:not(:last-child) {
+        margin-right: 20px;
+        margin-bottom: 0;
     }
 
     .advantage-item-icon {
-        width: 24px;
-        height: 24px;
-        padding: 4px;
-        border-radius: 30%;
+        width: 36px;
+        height: 36px;
+    }
+    .advantage-item-icon > svg {
+        width: 22px;
+        height: 22px;
     }
 
-    .advantage-item svg {
-        width: 15px;
-        height: 15px;
-    }
 }
 
+@media screen and (min-width: 1200px) {
+    .hero {
+        font-size: 20px;
+        padding: 60px 0;
+    }
+
+
+    .hero-content__title {
+        font-size: 50px;
+    }
+
+    .advantage-item:not(:last-child) {
+        margin-right: 30px;
+    }
+}

@@ -15,6 +15,10 @@
     box-sizing: border-box;
 }
 
+*:focus {
+    outline: none !important;
+}
+
 a {
     text-decoration: none;
     color: var(--blue);
@@ -126,12 +130,4 @@ body {
     font-weight: 600;
     font-size: 16px;
     line-height: 22px;
-}
-
-@media screen and (max-width: 575px) {
-    .btn_black {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
 }
