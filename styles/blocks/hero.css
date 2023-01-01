@@ -2,7 +2,6 @@
 .hero {
     width: 100%;
     background: #E8EAE9 url('/images/headerimage.jpg') top no-repeat;
-    background-size: cover;
 	border-radius: 0%;
 	color: var(--grey);
     padding-top: 380px;
@@ -26,15 +25,19 @@
     font-weight: 600;
     text-transform: uppercase;
     font-size: 14px;
-    
-    
+
+
     }
 
-.hero-content__title {
+.block-text__title {
     color: var(--dark);
     font-family: var(--secondary-font) ;
     font-size: 32px;
     margin-top: 20px;
+}
+
+.block-text {
+    text-align: center;
 }
 
 .hero-button {
@@ -87,7 +90,11 @@
         padding: 36px 0;
     }
 
-    .hero-content__title {
+    .block-text {
+        text-align: initial;
+    }
+
+    .block-text__title {
         font-size: 48px;
         margin-top: 24px;
     }
@@ -99,7 +106,7 @@
     .advantage {
         margin-top: 48px;
     }
-    
+
     .advantage-item {
         margin: auto 0;
     }
@@ -127,7 +134,7 @@
     }
 
 
-    .hero-content__title {
+    .block-text__title {
         font-size: 50px;
         margin-top: 28px;
     }
