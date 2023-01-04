@@ -11,7 +11,7 @@
     font-size: 16px;
     max-width: 1280px;
     margin: 0 auto;
-    margin-bottom: 60px;
+    margin-bottom: 64px;
 
 }
 
@@ -29,14 +29,14 @@
 
     }
 
-.block-text__title {
+.hero-main__title {
     color: var(--dark);
     font-family: var(--secondary-font) ;
     font-size: 32px;
     margin-top: 20px;
 }
 
-.block-text {
+.hero-main {
     text-align: center;
 }
 
@@ -88,13 +88,14 @@
         border-radius: 8px;
         text-align: initial;
         padding: 36px 0;
+        margin-bottom: 82px;
     }
 
-    .block-text {
+    .hero-main {
         text-align: initial;
     }
 
-    .block-text__title {
+    .hero-main__title {
         font-size: 48px;
         margin-top: 24px;
     }
@@ -131,6 +132,7 @@
     .hero {
         font-size: 20px;
         padding: 60px 0;
+        margin-bottom: 120px;
     }
 
 
