@@ -1,5 +1,5 @@
 .collection-main {
-    padding-bottom: 60px;
+    padding-bottom: 64px;
 
 }
 
@@ -18,12 +18,16 @@
 
 }
 
+.collection-main__title {
+    margin-top: 25px;
+}
+
 
 @media screen and (min-width: 576px) {
     .collection-main {
         padding-bottom: 80px;
-    }    
-    
+    }
+
     .collection-main__text {
         margin-top: 0px;
     }
@@ -31,10 +35,31 @@
     .collection-main__item {
         margin-bottom: 30px;
     }
+
+    .collection-main__title {
+        margin-top: 25px;
+    }
+
+    .collection-main__title {
+        margin-top: 10px;
+    }
+
 }
+
 
 @media screen and (min-width: 768px) {
     .collection-main {
         padding-bottom: 140px;
-    }    
+    }
+
+    .collection-main__title {
+        margin-top: 40px;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    .collection-main__title {
+        margin-top: 0px;
+    }
 }
