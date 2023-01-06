@@ -14,7 +14,7 @@
 
 .footer-icon__link {
     border-radius: 100%;
-    background: rgba(128, 128, 128, 0.1); 
+    background: rgba(128, 128, 128, 0.1);
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -25,7 +25,7 @@
 
 .footer-logo h3 {
     margin-top: 28px;
-} 
+}
 
 .footer-nav {
     margin-top: 31px;
@@ -48,18 +48,18 @@
     color: var(--blue);
 }
 
-h3 { 
+h3 {
     margin: 0;
 }
 
-.footer-main h3 {
+.footer-main__text {
     color: var(--grey);
     font-size: 16px;
     line-height: 28px;
     font-weight: 400;
 }
 
-.footer-item h3 {
+.footer-item__title {
     color: var(--dark);
     font-weight: 700;
     margin-bottom: 31px;
@@ -82,7 +82,7 @@ h3 {
     border-radius: 100%;
     justify-content: center;
     align-items: center;
-    text-align: center; 
+    text-align: center;
 }
 .footer-heart-information {
     text-align: center;
@@ -103,10 +103,12 @@ h3 {
     .footer-item {
         margin-bottom: 40px;
     }
-    .footer-item h3 {
+
+    .footer-item__title {
         font-size: 16px ;
         margin-bottom: 20px;
-        
+        font-weight: 700;
+
     }
     .footer-nav__link {
         font-size: 14px;
@@ -122,14 +124,13 @@ h3 {
         padding-top: 48px;
     }
 
-    .footer-main h3 {
+    .footer-main__text {
         font-size: 14px;
         line-height: 24px;
     }
 
     .footer-icon {
         margin-top: 16px;
-        margin-bottom: 45px;
         text-align: center;
     }
 
