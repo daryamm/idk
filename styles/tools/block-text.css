@@ -2,7 +2,7 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 1.75;
-    color: var(--grey);
+    color: var(--secondary);
     text-align: center;
 }
 
@@ -31,6 +31,7 @@
     .block-text {
         text-align: initial;
     }
+
 }
 
 @media screen and (min-width: 768px) {
@@ -41,6 +42,7 @@
 
     .block-text__title {
         font-size: 48px;
+        line-height: 1.25;
     }
 
     .block-text > *:not(:last-child) {
@@ -53,5 +55,6 @@
     .block-text > *:not(:last-child) {
         margin-bottom: 24px;
     }
+
 }
 

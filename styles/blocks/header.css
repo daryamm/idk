@@ -14,8 +14,8 @@
 .header-main__menu {
     display: flex;
     justify-content: flex-end;
-    
-   
+
+
 }
 
 .header-nav {
@@ -32,7 +32,7 @@
     font-size: 16px;
     color: var(--dark);
     text-decoration: none;
-	padding: var(--user-padding);   
+	padding: var(--user-padding);
     }
 
 .header-nav__link:not(:last-child) {
@@ -44,7 +44,7 @@
 }
 
 .header-nav__link:hover {
-    color: var(--blue);
+    color: var(--primary);
 }
 
 .logo-main {
@@ -58,13 +58,13 @@
         margin-bottom: 30px;
         height: 64px;
     }
-    
+
 }
 
 @media screen and (max-width:575px) {
     .header-main {
         margin-bottom: 24px;
-        
+
     }
-    
+
 }

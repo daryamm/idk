@@ -1,5 +1,5 @@
 .custom-checkbox {
-    width: 200px;
+    line-height: 1.4;
     position: relative;
     padding-left: 1.5rem;
     margin-top: 13px;
@@ -21,8 +21,10 @@
     border: 1px solid;
     border-radius: 4px;
     background: #fff;
-    margin-right: 1rem;
+    margin-right: 0.5rem;
     flex-shrink: 0;
+    line-height: 1.4;
+
     position: absolute;
     top: 3px;
     left: 0;
@@ -33,7 +35,7 @@
     background-image: url("data:image/svg+xml,%3Csvg width='8' height='7' viewBox='0 0 8 7' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M7 0.800049C6.724 0.800049 6.474 0.912049 6.293 1.09305L5.293 2.09305L3 4.38605L1.707 3.09305C1.526 2.91205 1.276 2.80005 1 2.80005C0.448 2.80005 0 3.24805 0 3.80005C0 4.07605 0.112 4.32605 0.293 4.50705L2.293 6.50705C2.474 6.68805 2.724 6.80005 3 6.80005C3.276 6.80005 3.526 6.68805 3.707 6.50705L6.707 3.50705L7.707 2.50705C7.888 2.32605 8 2.07605 8 1.80005C8 1.24755 7.552 0.800049 7 0.800049Z' fill='%231565D8'/%3E%3C/svg%3E%0A");
     background-repeat: no-repeat;
     background-position: center;
-    border-color: var(--blue);
+    border-color: var(--primary);
 }
 
 .custom-checkbox__label a {

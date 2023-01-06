@@ -1,6 +1,4 @@
 .footer-main {
-    /* height: 300px;
-    background: var(--blue); */
     background: #eee;
     padding: 130px 0 60px;
     margin: 0;
@@ -41,7 +39,7 @@
 }
 
 .footer-nav__link:hover {
-    color: var(--blue);
+    color: var(--primary);
 }
 
 h3 {
@@ -49,7 +47,7 @@ h3 {
 }
 
 .footer-main__text {
-    color: var(--grey);
+    color: var(--secondary);
     font-size: 16px;
     line-height: 28px;
     margin-top: 28px;
@@ -72,7 +70,7 @@ h3 {
 
 .footer-heart_picture {
     display: flex;
-    background-color: var(--blue);
+    background-color: var(--primary);
     border: none;
     height: 56px;
     width: 56px;

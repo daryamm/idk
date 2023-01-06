@@ -1,9 +1,9 @@
 
 .hero {
     width: 100%;
-    background: #E8EAE9 url('/images/headerimage.jpg') top no-repeat;
+    background: #E8EAE9 url('/images/hero/hero-mobile.jpg') top no-repeat;
 	border-radius: 0%;
-	color: var(--grey);
+	color: var(--secondary);
     padding-top: 380px;
     padding-bottom: 36px;
     line-height: 1.75;
@@ -18,16 +18,18 @@
 .tag {
     padding: 6px 16px;
     height: 20px;
-    background: #c1dacf;
     border-radius: 30px;
     color: #36B37E;
     font-style: normal;
     font-weight: 600;
     text-transform: uppercase;
     font-size: 14px;
-
-
+    opacity: 0.6;
     }
+
+.hero-tag {
+    background: #EBF7F2;
+}
 
 .hero-main__title {
     color: var(--dark);
@@ -68,7 +70,7 @@
     display: flex;
     width: 24px;
     height: 24px;
-    border: 1px solid var(--blue);
+    border: 1px solid var(--primary);
     border-radius: 8px;
     margin-right: 8px;
 }
@@ -83,7 +85,7 @@
 @media screen and (min-width:768px) {
     .hero {
         width: calc(100% - 40px);
-        background: #E8EAE9 url('/images/image.jpg') center top no-repeat;
+        background: #E8EAE9 url('/images/hero/hero-desktop.jpg') center top no-repeat;
         background-size: cover;
         border-radius: 8px;
         text-align: initial;

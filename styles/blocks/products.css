@@ -53,14 +53,14 @@
 }
 
 .trading-items__link:hover {
-    color: var(--blue);
+    color: var(--primary);
 }
 
 .trading-items__price {
     display: flex;
     justify-content: space-between;
     margin-top: 3px;
-    color: var(--grey);
+    color: var(--secondary);
     font-family: var(--font);
     font-size: 20px;
     line-height: 1.8;
@@ -108,7 +108,7 @@
 }
 
 .btn-more {
-    background-color: var(--blue);
+    background-color: var(--primary);
     width: 100%;
     border: none;
     color: #FAFAFB;
@@ -138,8 +138,6 @@
         margin-top: 25px;
     }
 }
-
-
 
 @media screen and (max-width:575px)  {
     .trading-items {

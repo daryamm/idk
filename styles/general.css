@@ -1,7 +1,7 @@
 :root {
-    --blue: #1565D8;
+    --primary: #1565D8;
     --dark: #183B56;
-    --grey: #5A7184;
+    --secondary: #5A7184;
     --white: #fff;
     --light: #f8f9fa;
     --font: 'Open Sans', sans-serif;
@@ -21,7 +21,7 @@
 
 a {
     text-decoration: none;
-    color: var(--blue);
+    color: var(--primary);
 }
 
 a:hover {
@@ -52,83 +52,4 @@ body {
     font-style: normal;
 }
 
-.btn {
-    display: inline-flex;
-	align-items: center;
-    color: var(--white);
-    font-weight: 700;
-    font-size: 18px;
-    height: 48px;
-    border-radius: 8px;
-    cursor: pointer;
-	text-decoration: none;
-	padding: 0 24px;
-	border: 2px solid transparent;
-    background: transparent;
-}
 
-.btn_outline {
-    background: transparent;
-    color: var(--blue);
-    text-align: center;
-    border-color: var(--blue);
-    }
-
-.btn_large {
-    height: 56px;
-}
-
-.btn_black {
-    background: var(--dark);
-}
-
-.btn_black:hover {
-    color: var(--white);
-    background-color: var(--blue);
-}
-
-
-.btn_tranparent {
-    background: transparent
-}
-
-.btn_icon {
-    padding: 0 12px;
-}
-
-.btn-icon:first-child {
-    margin-right: 30px;
-}
-
-.btn-icon:last-child {
-    margin-left: 30px;
-}
-
-.btn_circle {
-    border-radius: 100%;
-    height: 56px;
-    width: 56px;
-    padding: 0px;
-    margin-right: 22px;
-    flex-shrink: 0;
-    justify-content: center;
-    border-color: var(--grey);
-    color: var(--grey);
-}
-
-.btn_circle:last-child {
-    margin-right: 0px;
-}
-
-
-.line {
-    width: 100%;
-    height: 1px;
-    background: #E5EAF4;
-}
-
-.btn-link {
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 22px;
-}

@@ -1,11 +1,11 @@
 .cta-form {
-	background: var(--blue);
+	background: var(--primary);
 	color: #fff;
 	padding: 64px 0;
 }
 
 .cta-form__form {
-	height: 100%;
+	height: auto;
 	margin-top: 36px;
 }
 
@@ -22,7 +22,7 @@
 }
 
 @media screen and (min-width: 768px) {
-	
+
 	.cta-form__form {
 		display: flex;
 		flex-direction: column;
@@ -39,7 +39,7 @@
 	}
 
 	.cta-form__input-item {
-		height: 100%;
+        font-size: 16px;
 		color: var(--dark);
 		border: none;
 		padding: 0 12px;
@@ -70,7 +70,7 @@
 @media screen and (max-width: 767px) {
     .cta-form__input-item {
         background: #ffffff;
-        border: 1px solid var(--grey);
+        border: 1px solid var(--secondary);
         border-radius: 8px;
         height: 56px;
         display: flex;
@@ -80,7 +80,7 @@
     }
 
     .cta-form__input-item::placeholder {
-        color: var(--grey);
+        color: var(--secondary);
     }
 
     .cta-form__input-item:focus {

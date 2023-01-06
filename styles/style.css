@@ -6,11 +6,15 @@
 @import './tools/checkbox.css';
 @import './tools/order.css';
 @import './tools/block-text.css';
+@import './tools/buttons.css';
+@import './tools/line.css';
+
+
 
 @import './blocks/header.css';
 @import './blocks/hero.css';
 @import './blocks/collection.css';
-@import './blocks/trading.css';
+@import './blocks/products.css';
 @import './blocks/testimonial.css';
 @import './blocks/stories.css';
 @import './blocks/cta.css';
