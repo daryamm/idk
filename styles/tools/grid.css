@@ -38,7 +38,7 @@
     .container {
         max-width: var(--max-width-xl);
     }
-    
+
 }
 
 .row {
@@ -47,6 +47,8 @@
     margin-right: calc(var(--gutter)/-2);
     display: flex;
     flex-wrap: wrap;
+    --gutter-y: 0;
+    margin-bottom: calc(-1 * var(--gutter-y));
 }
 
 @media screen and (max-width:575px) {
@@ -55,13 +57,146 @@
     }
 }
 
+
+.gy-0 {
+    --gutter-y: 0rem;
+}
+
+.gy-1 {
+    --gutter-y: 0.25rem;
+}
+
+.gy-2 {
+    --gutter-y: 0.5rem;
+}
+
+.gy-3 {
+    --gutter-y: 1rem;
+}
+
+.gy-4 {
+    --gutter-y: 1.5rem;
+}
+
+.gy-5 {
+    --gutter-y: 3rem;
+}
+
+@media screen and (min-width: 576px) {
+    .gy-sm-0 {
+        --gutter-y: 0rem;
+    }
+
+    .gy-sm-1 {
+        --gutter-y: 0.25rem;
+    }
+
+    .gy-sm-2 {
+        --gutter-y: 0.5rem;
+    }
+
+    .gy-sm-3 {
+        --gutter-y: 1rem;
+    }
+
+    .gy-sm-4 {
+        --gutter-y: 1.5rem;
+    }
+
+    .gy-sm-5 {
+        --gutter-y: 3rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .gy-md-0 {
+        --gutter-y: 0rem;
+    }
+
+    .gy-md-1 {
+        --gutter-y: 0.25rem;
+    }
+
+    .gy-md-2 {
+        --gutter-y: 0.5rem;
+    }
+
+    .gy-md-3 {
+        --gutter-y: 1rem;
+    }
+
+    .gy-md-4 {
+        --gutter-y: 1.5rem;
+    }
+
+    .gy-md-5 {
+        --gutter-y: 3rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .gy-lg-0 {
+        --gutter-y: 0rem;
+    }
+
+    .gy-lg-1 {
+        --gutter-y: 0.25rem;
+    }
+
+    .gy-lg-2 {
+        --gutter-y: 0.5rem;
+    }
+
+    .gy-lg-3 {
+        --gutter-y: 1rem;
+    }
+
+    .gy-lg-4 {
+        --gutter-y: 1.5rem;
+    }
+
+    .gy-lg-5 {
+        --gutter-y: 3rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .gy-xl-0 {
+        --gutter-y: 0rem;
+    }
+
+    .gy-xl-1 {
+        --gutter-y: 0.25rem;
+    }
+
+    .gy-xl-2 {
+        --gutter-y: 0.5rem;
+    }
+
+    .gy-xl-3 {
+        --gutter-y: 1rem;
+    }
+
+    .gy-xl-4 {
+        --gutter-y: 1.5rem;
+    }
+
+    .gy-xl-5 {
+        --gutter-y: 3rem;
+    }
+}
+
+
 .row > * {
     width: 100%;
     max-width: 100%;
     padding-left: calc(var(--gutter)/2);
     padding-right: calc(var(--gutter)/2);
     flex-shrink: 0;
+    margin-bottom: var(--gutter-y);
 }
+
+
 .col-1 {
     width: calc(100%/12);
 }
@@ -148,6 +283,7 @@
         width: 100%;
     }
 }
+
 
 @media screen and (min-width: 768px) {
     .col-md-1 {
@@ -298,3 +434,8 @@
         width: 100%;
     }
 }
+
+.overflow-hidden {
+    overflow: hidden!important;
+}
+

@@ -1,16 +1,11 @@
-.trading-content {
-    --trading-margin-top: 140px; 
-    --trading-margin-bottom: 150px;
+.products-content {
     color: var(--dark);
-    margin-top: var(--trading-margin);
-    margin-bottom: var(--trading-margin-bottom);
-    /* margin-bottom: 150px; */
+    padding-bottom: 150px;
 }
 
 .categories {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 48px;
 }
 
 .categories-nav {
@@ -20,7 +15,7 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    
+    margin-top: 0px;
 }
 
 .categories-nav__link {
@@ -39,17 +34,11 @@
     font-weight: bold;
 }
 
-
 .categories-nav__link:hover {
     color: var(--blue);
 }
 
-.trading-items {
-    margin-bottom: 50px;
-}
-
 .trading-items__information {
-    padding: 0 10px;
     margin-top: 20px;
 }
 
@@ -60,7 +49,7 @@
     color: var(--dark);
     line-height: 32px;
     margin-top: 20px;
-    
+
 }
 
 .trading-items__link:hover {
@@ -74,29 +63,30 @@
     color: var(--grey);
     font-family: var(--font);
     font-size: 20px;
-    line-height: 36px;
+    line-height: 1.8px;
 }
 
+.trading-items__picture {
+    display: block;
+}
+
+.categories-text__title {
+    margin-top: 0;
+}
 
 @media screen and (max-width:991px) {
     .categories {
         display: block ;
         text-align: center;
-        margin-bottom: 36px;
-        
+
     }
 
-    .categories h1 { 
-        margin-bottom: 28px;
-    }
     .categories-nav {
-        padding: 0;
+        margin-top: 28px;
     }
 
-    .trading-content {
-        margin-top: calc((var(--trading-margin-top)/2));
-        margin-bottom: calc((var(--trading-margin-bottom)/2));
-
+    .products-content {
+        padding-bottom: 80px;
     }
 }
 
@@ -108,11 +98,10 @@
     width: 100%;
     transform: translateY(-50%);
     text-align: center;
-    padding: 0 24px;
 }
 
 .btn-information__text {
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 .btn-more {
@@ -131,14 +120,10 @@
 
 }
 
-
-
 .btn-more:hover {
     background-color: var(--dark);
     color: var(--white);
 }
-
-
 
 @media screen and (min-width:768px) {
     .btn-information {
@@ -151,6 +136,8 @@
     }
 }
 
+
+
 @media screen and (max-width:575px)  {
     .trading-items {
         margin-bottom: 20px;
@@ -158,14 +145,13 @@
 
     .trading-items__price {
         justify-content: flex-start;
+        font-size: 14px;
+        margin-right: 9px;
+        line-height: 1.71;
     }
 
-    .trading-items__price p {
-        margin-right: 9px;
-    }
-    .trading-content {
-        margin-top: calc((var(--trading-margin-top)/3));
-        margin-bottom: calc((var(--trading-margin-bottom)/3));
+    .products-content {
+        padding-bottom: 48px;
     }
 
     .categories-nav__link {
@@ -179,6 +165,7 @@
     .categories-nav {
         width: 100%;
         padding: 0;
+        margin-top: 24px;
     }
 
     .categories-nav__link {
@@ -186,36 +173,25 @@
         margin: 0;
         padding: 5px 6px;
     }
-    
-    .btn-more h2 {
-        font-size: 28px;
-    }
-    .btn-more p {
-        font-size: 20px;
-    }
 
     .trading-items__link {
         font-size: 16px;
         margin: 0;
         line-height: 20px;
-        
     }
 
-    .trading-items__price {
-        margin: 0;
-    }
-    .trading-items__price p {
-        font-size: 14px;
-
-    }
     .trading-items__information {
         margin-top: 13px;
 
     }
 
-    .trading-item__action svg {
+    .trading-item__action {
         height: 14px;
         width: 13px;
+    }
+
+    .btn-information {
+        padding: 0px;
     }
 }
 
