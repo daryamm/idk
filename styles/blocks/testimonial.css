@@ -1,6 +1,5 @@
 .testimonial-main {
-    padding-bottom: 80px;
-    
+    padding-bottom: 64px;
 }
 
 .testimonial-main__picture {
@@ -25,14 +24,14 @@
     line-height: 24px;
     text-align: center;
     color: var(--dark);
-    
+
 }
 
 @media screen and (min-width: 992px)  {
     .testimonial-main {
         width: 800px;
         margin: 0 auto;
-        
+
     }
 
 }
@@ -41,5 +40,10 @@
     .testimonial-main__text {
         font-size: 20px;
         line-height: 42px;
+    }
+
+    .testimonial-main {
+        padding-bottom: 80px;
+
     }
 }
