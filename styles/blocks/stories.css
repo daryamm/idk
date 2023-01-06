@@ -1,6 +1,6 @@
 .stories-block {
-    padding-top: 130px;
-    padding-bottom: 140px;
+    padding-top: 47px;
+    padding-bottom: 64px;
 }
 
 .stories-block__items {
@@ -17,18 +17,20 @@
 }
 
 .stories-block__content {
-    margin-bottom: 26px;
+    margin-bottom: 36px;
     text-align: center;
 }
 
 .stories-element__preview {
     border-radius: 8px;
     overflow: hidden;
+    margin-bottom: 24px;
 }
 
 .stories-element__content {
     padding: 20px 10px 20px 20px;
-    background: var(--white);
+    background: #FAFDFF;
+    ;
     position: relative;
     z-index: 2;
     margin-top: -20px;
@@ -36,7 +38,7 @@
 }
 
 .stories-button {
-    margin-top: 42px;
+    margin-top: 27px;
     justify-content: center;
 }
 
@@ -49,7 +51,13 @@
     width: 100%;
 }
 
+
 @media screen and (min-width:768px) {
+    .stories-block {
+        padding-top: 79px;
+        padding-bottom: 80px;
+    }
+
     .stories-block__content {
         margin-bottom: 36px;
     }
@@ -63,14 +71,30 @@
         padding: 20px 30px 20px 20px;
     }
 
+    .stories-button {
+        margin-top: 36px;
+    }
+
+    .stories-element__preview {
+        margin-bottom: 0px;
+    }
+
 }
 
 @media screen and (min-width:1200px) {
+    .stories-block {
+        padding-top: 120px;
+        padding-bottom: 140px;
+    }
+
     .stories-block__content {
         text-align: initial;
+        margin-bottom: 0px;
     }
-    
+
     .stories-button {
         justify-content: flex-start;
+        margin-top: 42px;
     }
+
 }
